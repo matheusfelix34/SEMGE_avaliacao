@@ -22,11 +22,10 @@ class CrudController extends Controller
 
     public function index()
     {
-        //dd( $this->objUser->all());
-       // return view('index');
+        
        $user=$this->objUser->all();
        return view('index',  compact('user'));
-      // return view(view:'index', compact(varname: 'user'));
+      
     }
 
     /**
@@ -48,7 +47,7 @@ class CrudController extends Controller
      */
     public function store(Request $request)
     {
-      // dd($request);
+      
      
         
      
@@ -75,8 +74,7 @@ class CrudController extends Controller
             return redirect('crud');
         }
 
-     /*   $user=$this->objUser->all();
-        return view('index',  compact('user'));*/
+     
     }
 
     /**
