@@ -1,7 +1,5 @@
 # SEMGE_avaliacao
 Repositório público para Avaliação Técnica
-# cadastro_usuario
-## CRUD de cadastro de usuário
 
 ## O que é este projeto?
 CRUD de cadastro de usuário
