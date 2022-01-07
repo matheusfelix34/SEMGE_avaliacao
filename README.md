@@ -9,6 +9,7 @@ CRUD de cadastro de usuário
 ```bash
 $ git clone https://github.com/matheusfelix34/SEMGE_avaliacao.git
 $ cd cadastro_usuario
+$ composer update --ignore-platform-reqs ou composer update
 $ php artisan migrate #antes de rodar este comando verifique sua configuracao com banco em .env
 $ php artisan serve
 $ php artisan db:seed #para gerar a seeder de users
